@@ -99,7 +99,8 @@ def load_data(city, month, day):
 
 
 def time_stats(df, month, day, filters):
-    """Displays statistics on the most frequent times of travel.
+    """
+    Displays statistics on the most frequent times of travel.
     
     Args:
         df - Pandas DataFrame containing city data filtered by month and day, if applicable
@@ -135,7 +136,8 @@ def time_stats(df, month, day, filters):
 
 
 def station_stats(df, filters):
-    """Displays statistics on the most popular stations and trip.
+    """
+    Displays statistics on the most popular stations and trip.
     
     Args:
         df - Pandas DataFrame containing city data filtered by month and day, if applicable
@@ -168,7 +170,8 @@ def station_stats(df, filters):
 
 
 def trip_duration_stats(df, filters):
-    """Displays statistics on the total and average trip duration.
+    """
+    Displays statistics on the total and average trip duration.
     Args:
         df - Pandas DataFrame containing city data filtered by month and day, if applicable
         (str) filters - filters that were applied to the df (e.g. 'month', 'day', 'month and day', or 'none' if no filters were applied)
@@ -193,7 +196,8 @@ def trip_duration_stats(df, filters):
 
 
 def user_stats(df, city, filters):
-    """Displays statistics on bikeshare users.
+    """
+    Displays statistics on bikeshare users.
     
     Args:
         df - Pandas DataFrame containing city data filtered by month and day, if applicable
@@ -232,7 +236,8 @@ def user_stats(df, city, filters):
 
     
 def view_indiv_data(df):
-    """ Displays individual trip data, 5 lines at a time.
+    """ 
+    Displays individual trip data, 5 lines at a time.
         The user is prompted each time on whether they want to see another 5 lines of data
         
     Args:
