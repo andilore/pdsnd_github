@@ -242,10 +242,10 @@ def view_indiv_data(df):
     
     view_data = input('\nWould you like to view individual trip data? Type "yes" or "no": ')
     
-    while (view_data != 'no') and (view_data != 'yes'):
+    while (view_data.lower() != 'no') and (view_data.lower() != 'yes'):
         view_data = input('\nError! Please enter "yes" or "no": ')
         
-    if view_data == 'yes':
+    if view_data.lower() == 'yes':
         df = df.rename(columns={'Unnamed: 0': 'User Number'})
         num_rows, num_cols = df.shape
         num_rows_left = num_rows
@@ -253,7 +253,7 @@ def view_indiv_data(df):
         row_indices = df.index
         row_index_start = 0
         
-    while (view_data == 'yes') and (num_rows_left > 0):
+    while (view_data.lower() == 'yes') and (num_rows_left > 0):
         if (num_rows_left >= 5):
             # display 5 rows
             for index in range(row_index_start, row_index_start+5):
