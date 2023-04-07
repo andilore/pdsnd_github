@@ -5,14 +5,8 @@ The Python code imports the data and takes in raw user input to answer interesti
 ### Date created
 The project was finished on March 20, 2023.
 
-### Project Title
-Replace the Project Title
-
-### Description
-Describe what your project is about and what it does
-
 ### Files used
-Include the files used
+The data files used for the project were .csv files containing bikeshare data for Chicago, New York City, and Washington.  They were named aptly as chicago.csv, new_york_city.csv, and washington.csv, respectively. Remember: **these data files were _not added to the remote repository_, since they were too large in size**.
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
