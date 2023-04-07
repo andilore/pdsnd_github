@@ -3,7 +3,7 @@ This Python code explores data related to bikeshare systems for three major citi
 The Python code imports the data and takes in raw user input to answer interesting questions about the data (via descriptive statistics), creating an interactive experience in the terminal.
 
 ### Date created
-Include the date you created this project and README file.
+The project was finished on March 20, 2023.
 
 ### Project Title
 Replace the Project Title
