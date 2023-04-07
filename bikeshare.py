@@ -296,6 +296,18 @@ def view_indiv_data(df):
             
             
 def main():
+    """
+    Runs all the functions in this script, if and only if this is the current script being executed.
+
+    This function serves as the entry point for this script, and is typically called when the script is invoked
+    directly by the user. It does not run if this script is imported as a module by another script.
+
+    This function is responsible for calling all the other functions in this script in the appropriate order.
+
+    Returns:
+        None
+    """
+    
     while True:
         city, month, day, filters = get_filters()
         df = load_data(city, month, day)
