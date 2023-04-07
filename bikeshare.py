@@ -107,6 +107,9 @@ def time_stats(df, month, day, filters):
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
         (str) filters - filters that were applied to the df (e.g. 'month', 'day', 'month and day', or 'none' if no filters were applied)            
+    
+    Returns:
+        None
     """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
@@ -176,6 +179,8 @@ def trip_duration_stats(df, filters):
         df - Pandas DataFrame containing city data filtered by month and day, if applicable
         (str) filters - filters that were applied to the df (e.g. 'month', 'day', 'month and day', or 'none' if no filters were applied)
 
+    Returns:
+        None
     """
     
     print('\nCalculating Trip Duration...\n')
@@ -204,7 +209,8 @@ def user_stats(df, city, filters):
         (str) city - name of the city to analyze
         (str) filters - filters that were applied to the df (e.g. 'month', 'day', 'month and day', or 'none' if no filters were applied)
 
-    
+    Returns:
+        None
     """
 
     print('\nCalculating User Stats...\n')
@@ -243,6 +249,8 @@ def view_indiv_data(df):
     Args:
         df - Pandas DataFrame containing city data filtered by month and day, if applicable
         
+    Returns:
+        None
     """
     
     view_data = input('\nWould you like to view individual trip data? Type "yes" or "no": ')
